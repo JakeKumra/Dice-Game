@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica;
+
+}
+
+/* Topography */
+
+h1 {
+    font-size: 32px;
+}
+
+span {
+    
+    font-size: 26px;
+ 
+}
+
+/* Layout */
+
+.container {
+    background-color: aquamarine;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto; 
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.dice-container {
+    display: flex;
+    margin: 0 auto;
+    width: 250px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.dice {
+    border-radius: 5%;
+    font-size: 40px;
+    display: inline-block;
+    background-color: lightpink;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+}
+
+.active {
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+
+/* Button */
+
+.btn {
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+}
+
+.new-game-btn {
+    background-color: lightskyblue;
+    margin-bottom: 0;
+}
